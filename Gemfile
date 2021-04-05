@@ -7,6 +7,9 @@ gem 'rails', '~> 6.1.3'
 gem 'sqlite3', '~> 1.4'
 
 gem 'carrierwave'
+gem "mini_magick"
+
+
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 5.0'
@@ -32,3 +35,4 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
